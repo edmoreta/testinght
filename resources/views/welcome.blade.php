@@ -147,9 +147,7 @@
       <div class="container">
         <div id="logo" class="pull-left">
           <h1>
-            <a href="#body"
-              ><span>Hyper</span><span style="color: #FFC909">Taxi</span></a
-            >
+            <a href="#body"><span>Hyper</span><span style="color: #FFC909">Taxi</span></a>
           </h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <!-- <h1><a href="#body" class="scrollto"><img src="img/2L-01.png" style="max-width: 10%" alt="" title="" /></a></h1> -->
@@ -166,9 +164,9 @@
             <li class="menu-has-children">
               <a href="">Acceso web</a>
               <ul>
-                <li><a href="#">Cliente</a></li>
-                <li><a href="#">Propietario</a></li>
-                <li><a href="#">Gestión</a></li>
+                <li><a href="http://hypertaxi.hypermovilidad.com/publico/cliente">Cliente</a></li>
+                <li><a href="http://hypertaxi.hypermovilidad.com/publico/propietario">Propietario</a></li>
+                <li><a href="http://hypertaxi.hypermovilidad.com/tunel/resuelve">Gestión</a></li>
               </ul>
             </li>
             <!-- <li><a href="#blog">Blog</a></li>
@@ -190,7 +188,7 @@
 
         <div class="row">
           <div class="col-lg-4 col-md-6">
-            <a href="#">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.hypermovilidad.hypertaxicliente&hl=es_EC">
               <img
                 src="img/1-01.png"
                 style="max-width: 55%; height: auto;"
@@ -199,7 +197,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-md-6">
-            <a href="">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.hypermovilidad.hypertaxipropietario&hl=es_EC">
               <img
                 src="img/2-01.png"
                 style="max-width: 55%; height: auto;"
@@ -208,7 +206,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-md-6">
-            <a href="">
+            <a target="_blank" href="https://play.google.com/store/apps/details?id=com.hypermovilidad.hypertaxiconductor&hl=es_EC">
               <img
                 src="img/3-01.png"
                 style="max-width: 55%; height: auto;"
@@ -218,10 +216,10 @@
           </div>
         </div>
 
-        <a href="#get-started" class="btn-get-started scrollto">Descargar</a>
+        <a target="_blank" href="https://play.google.com/store/apps/developer?id=HyperMovilidad&hl=es_EC" class="btn-get-started scrollto">Descargar</a>
         <div class="btns">
           <a href="#"><i class="fa fa-apple fa-3x"></i> App Store</a>
-          <a href="#"><i class="fa fa-play fa-3x"></i> Google Play</a>
+          <a target="_blank" href="https://play.google.com/store/apps/developer?id=HyperMovilidad&hl=es_EC"><i class="fa fa-play fa-3x"></i> Google Play</a>
           <a href="#"><i class="fa fa-windows fa-3x"></i> windows</a>
         </div>
       </div>
@@ -432,48 +430,60 @@
       <br />
       <div class="container">
         <div class="section-title text-center">
-          <h2>simple systeme fordiscount</h2>
-          <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+          <h2>HyperMovilidad </h2>
+          {{-- <p class="separator">Integer cursus bibendum augue ac cursus .</p> --}}
         </div>
       </div>
 
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="img/svg/cloud.svg" alt="img" class="img-fluid" />
-              <h4>introducing whatsapp</h4>
-              <p>
+              <h4>9 ciudades del país</h4>
+              {{-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry
               </p>
-              <a href="#">read more</a>
+              <a href="#">read more</a> --}}
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="img/svg/planet.svg" alt="img" class="img-fluid" />
-              <h4>user friendly interface</h4>
-              <p>
+              <h4>44 empresas</h4>
+              {{-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry
               </p>
-              <a href="#">read more</a>
+              <a href="#">read more</a> --}}
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4">
+          <div class="col-md-6 col-lg-3">
             <div class="feature-block">
               <img src="img/svg/asteroid.svg" alt="img" class="img-fluid" />
-              <h4>build the app everyone love</h4>
-              <p>
+              <h4>916 vehículos</h4>
+              {{-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry
               </p>
-              <a href="#">read more</a>
+              <a href="#">read more</a> --}}
             </div>
           </div>
+
+          <div class="col-md-6 col-lg-3">
+                <div class="feature-block">
+                  <img src="img/svg/asteroid.svg" alt="img" class="img-fluid" />
+                  <h4>1005 conductores</h4>
+                  {{-- <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry
+                  </p>
+                  <a href="#">read more</a> --}}
+                </div>
+              </div>
         </div>
       </div>
     </section>
@@ -490,20 +500,19 @@
 
           <div class="col-md-7 col-lg-5">
             <div class="about-content">
-              <h2><span>eStartup</span>UI Design Mobile</h2>
+              <h2><span>HyperTaxi</span></h2>
               <p>
-                Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat
+                Expertos en rastreo satelital
               </p>
 
               <ul class="list-unstyled">
-                <li><i class="fa fa-angle-right"></i>Creative Design</li>
-                <li><i class="fa fa-angle-right"></i>Retina Ready</li>
-                <li><i class="fa fa-angle-right"></i>Easy to Use</li>
-                <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
-                <li><i class="fa fa-angle-right"></i>Unlimited Features</li>
+                <li><i class="fa fa-angle-right"></i>Petición de taxi</li>
+                <li><i class="fa fa-angle-right"></i>Petición de pedidos</li>
+                <li><i class="fa fa-angle-right"></i>Historial de carreras</li>
+                <li><i class="fa fa-angle-right"></i>Calificación al conductor y el taxi</li>
+                <li><i class="fa fa-angle-right"></i>Compartir recorrido en el taxi</li>
+                <li><i class="fa fa-angle-right"></i>Direcciones favoritas</li>
+                <li><i class="fa fa-angle-right"></i>Botón de pánico con contactos de emergencia</li>
               </ul>
             </div>
           </div>
@@ -642,9 +651,9 @@
           <div><img src="img/screen/4.jpg" alt="img" /></div>
           <div><img src="img/screen/5.jpg" alt="img" /></div>
           <div><img src="img/screen/6.jpg" alt="img" /></div>
-          <div><img src="img/screen/7.jpg" alt="img" /></div>
+          {{-- <div><img src="img/screen/7.jpg" alt="img" /></div>
           <div><img src="img/screen/8.jpg" alt="img" /></div>
-          <div><img src="img/screen/9.jpg" alt="img" /></div>
+          <div><img src="img/screen/9.jpg" alt="img" /></div> --}}
         </div>
       </div>
     </section>
@@ -858,7 +867,7 @@
     <section id="team" class="padd-section text-center wow fadeInUp">
       <div class="container">
         <div class="section-title text-center">
-          <h2>Team Member</h2>
+          <h2>Nuestro Equipo de Trabajo</h2>
           <p class="separator">Integer cursus bibendum augue ac cursus .</p>
         </div>
       </div>
@@ -956,7 +965,7 @@
     Testimonials Section
   ============================-->
 
-    <section id="testimonials" class="padd-section text-center wow fadeInUp">
+    {{-- <section id="testimonials" class="padd-section text-center wow fadeInUp">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-md-8">
@@ -1035,12 +1044,12 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
     <!--==========================
     Pricing Table Section
   ============================-->
-    <section id="pricing" class="padd-section text-center wow fadeInUp">
+    {{-- <section id="pricing" class="padd-section text-center wow fadeInUp">
       <div class="container">
         <div class="section-title text-center">
           <h2>Meet With Price</h2>
@@ -1135,7 +1144,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> --}}
 
     <!--==========================
     Blog Section
@@ -1224,7 +1233,7 @@
                   name="email"
                 />
                 <button type="submit" class="btn btn-default">
-                  <i class="fa fa-location-arrow"></i>Subscribe
+                  <i class="fa fa-location-arrow"></i>Suscríbete
                 </button>
               </form>
             </div>
@@ -1254,10 +1263,10 @@
     <section id="contact" class="padd-section wow fadeInUp">
       <div class="container">
         <div class="section-title text-center">
-          <h2>Contact</h2>
-          <p class="separator">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque
+          <h2>Contáctanos</h2>
+          {{-- <p class="separator"> --}}
+          <p class="">
+            ¿Interesado en nuestros servicios o simplemente tienes una duda? No dudes en escribirnos.
           </p>
         </div>
       </div>
@@ -1268,34 +1277,30 @@
             <div class="info">
               <div>
                 <i class="fa fa-map-marker"></i>
-                <p>A108 Adam Street<br />New York, NY 535022</p>
+                <p>Simón Bolivar 817 y Pedro Moncayo<br />Ibarra, Ecuador</p>
               </div>
 
               <div class="email">
                 <i class="fa fa-envelope"></i>
-                <p>info@example.com</p>
+                <p>info@hypermovilidad.com</p>
               </div>
 
               <div>
                 <i class="fa fa-phone"></i>
-                <p>+1 5589 55488 55s</p>
+                <p>+593 98 465 5141</p>
               </div>
             </div>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-              <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-              <a href="#" class="google-plus"
-                ><i class="fa fa-google-plus"></i
-              ></a>
-              <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/vecitaxi" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/vecitaxi" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/vecitaxi/" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a>              
             </div>
           </div>
 
           <div class="col-lg-5 col-md-8">
             <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="sendmessage">Tu mensaje ha sido enviado. Gracias!</div>
               <div id="errormessage"></div>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
@@ -1304,7 +1309,7 @@
                     name="name"
                     class="form-control"
                     id="name"
-                    placeholder="Your Name"
+                    placeholder="Nombre"
                     data-rule="minlen:4"
                     data-msg="Please enter at least 4 chars"
                   />
@@ -1316,7 +1321,7 @@
                     class="form-control"
                     name="email"
                     id="email"
-                    placeholder="Your Email"
+                    placeholder="Correo electrónico"
                     data-rule="email"
                     data-msg="Please enter a valid email"
                   />
@@ -1328,7 +1333,7 @@
                     class="form-control"
                     name="subject"
                     id="subject"
-                    placeholder="Subject"
+                    placeholder="Asunto"
                     data-rule="minlen:4"
                     data-msg="Please enter at least 8 chars of subject"
                   />
@@ -1341,12 +1346,12 @@
                     rows="5"
                     data-rule="required"
                     data-msg="Please write something for us"
-                    placeholder="Message"
+                    placeholder="Mensaje"
                   ></textarea>
                   <div class="validation"></div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Send Message</button>
+                  <button type="submit">Enviar Mensaje</button>
                 </div>
               </form>
             </div>
@@ -1364,11 +1369,12 @@
         <div class="row">
           <div class="col-md-12 col-lg-4">
             <div class="footer-logo">
-              <a class="navbar-brand" href="#">eStartup</a>
+                <h1>
+                    <a href="#body"><span style="color:#fff">Hyper</span><span style="color: #FFC909">Taxi</span></a>
+                </h1>
+              {{-- <a class="navbar-brand" href="#">HyperTaxi</a> --}}
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the.
+                    Sistema de control de flota y despacho de carreras
               </p>
             </div>
           </div>
@@ -1429,16 +1435,8 @@
 
       <div class="copyrights">
         <div class="container">
-          <p>&copy; Copyrights eStartup. All rights reserved.</p>
-          <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eStartup
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
+          <p>&copy; 2019 Hypermovilidad Cia. Ltda. Todos los derechos reservados.
+            </p>          
         </div>
       </div>
     </footer>
