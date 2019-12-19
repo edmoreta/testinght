@@ -439,7 +439,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
-              <img src="img/svg/cloud.svg" alt="img" class="img-fluid" />
+              <img src="img/svg/8.png" alt="img" class="img-fluid" />
               <h4>9 ciudades del país</h4>
               {{-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -451,7 +451,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
-              <img src="img/svg/planet.svg" alt="img" class="img-fluid" />
+              <img src="img/svg/9.png" alt="img" class="img-fluid" />
               <h4>44 empresas</h4>
               {{-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -463,7 +463,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
-              <img src="img/svg/asteroid.svg" alt="img" class="img-fluid" />
+              <img src="img/svg/10.png" alt="img" class="img-fluid" />
               <h4>916 vehículos</h4>
               {{-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -475,7 +475,7 @@
 
           <div class="col-md-6 col-lg-3">
                 <div class="feature-block">
-                  <img src="img/svg/asteroid.svg" alt="img" class="img-fluid" />
+                  <img src="img/svg/11.png" alt="img" class="img-fluid" />
                   <h4>1005 conductores</h4>
                   {{-- <p>
                     Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -536,11 +536,7 @@
         <div class="row">
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
-              <img
-                src="img/svg/1.jpg"
-                alt="img"
-                class="img-fluid"
-              />
+              <img src="img/svg/1.png" alt="img" class="img-fluid" />
               <h4>Control de flota</h4>
               <!-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -551,7 +547,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
-              <img src="img/svg/2.jpg" alt="img" class="img-fluid" />
+              <img src="img/svg/2.png" alt="img" class="img-fluid" />
               <h4>Despacho de carreras</h4>
               <!-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -562,7 +558,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
-              <img src="img/svg/3.jpg" alt="img" class="img-fluid" />
+              <img src="img/svg/3.png" alt="img" class="img-fluid" />
               <h4>Mapas Geo-referenciados</h4>
               <!-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -573,7 +569,7 @@
 
           <div class="col-md-6 col-lg-3">
             <div class="feature-block">
-              <img src="img/svg/4.jpg" alt="img" class="img-fluid" />
+              <img src="img/svg/4.png" alt="img" class="img-fluid" />
               <h4>Reportes estadísticos</h4>
               <!-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -584,7 +580,7 @@
 
           <div class="col-md-6 col-lg-4">
             <div class="feature-block">
-              <img src="img/svg/5.jpg" alt="img" class="img-fluid" />
+              <img src="img/svg/5.png" alt="img" class="img-fluid" />
               <h4>Alertas de auxilio comunitaria</h4>
               <!-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -596,7 +592,7 @@
           <div class="col-md-6 col-lg-4">
             <div class="feature-block">
               <img
-                src="img/svg/6.jpg"
+                src="img/svg/6.png"
                 alt="img"
                 class="img-fluid"
               />
@@ -610,7 +606,7 @@
 
           <div class="col-md-6 col-lg-4">
             <div class="feature-block">
-              <img src="img/svg/7.jpg" alt="img" class="img-fluid" />
+              <img src="img/svg/7.png" alt="img" class="img-fluid" />
               <h4>Alertas de radares</h4>
               <!-- <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -645,15 +641,17 @@
 
       <div class="container">
         <div class="owl-carousel owl-theme">
-          <div><img src="img/screen/1.jpg" alt="img" /></div>
+          {{-- <div><img src="img/screen/1.jpg" alt="img" /></div>
           <div><img src="img/screen/2.jpg" alt="img" /></div>
           <div><img src="img/screen/3.jpg" alt="img" /></div>
           <div><img src="img/screen/4.jpg" alt="img" /></div>
           <div><img src="img/screen/5.jpg" alt="img" /></div>
-          <div><img src="img/screen/6.jpg" alt="img" /></div>
-          {{-- <div><img src="img/screen/7.jpg" alt="img" /></div>
-          <div><img src="img/screen/8.jpg" alt="img" /></div>
-          <div><img src="img/screen/9.jpg" alt="img" /></div> --}}
+          <div><img src="img/screen/6.jpg" alt="img" /></div> --}}
+          <div><img src="img/screen/7.png" alt="img" /></div>
+          <div><img src="img/screen/8.png" alt="img" /></div>
+          <div><img src="img/screen/9.png" alt="img" /></div>
+          <div><img src="img/screen/10.png" alt="img" /></div>
+          <div><img src="img/screen/11.png" alt="img" /></div>
         </div>
       </div>
     </section>
